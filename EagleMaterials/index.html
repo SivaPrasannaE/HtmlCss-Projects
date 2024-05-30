@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Assignment</title>
+</head>
+
+<body>
+    <div class="cont">
+        <div class="navbar">
+            <img class="logo" src="/Final Assignment/Images/logo.jpg" alt="Eagle Materials">
+            <ul class="nav_ele">
+                <li>Home</li>
+                <div class="pro">
+                    <li class="nav_ele">Products
+                        <ul class="p_list">
+                            <li>Product 1</li>
+                            <li>Product 2</li>
+                            <li>Product 3</li>
+                        </ul>
+                    </li>
+                </div>
+                <li class="nav_ele">Divisions</li>
+                <li class="nav_ele">Accounts</li>
+                <li class="nav_ele">Admin</li>
+            </ul>
+        </div>
+        <div class="header">
+            <h3 class="head1">MANAGE PROJECTS</h3>
+            <a href="/Final Assignment/HTML/request.html" class="head2">
+                <button class="newbtn">New Project Request</button>
+            </a>
+        </div>
+        <div class="tablecontainer">
+            <table style="width: 100%;border-collapse: collapse;">
+                <thead>
+                <tr>
+                    <th class="wider">Tracking ID</th>
+                    <th class="wider">Ship Date</th>
+                    <th class="wider">Est Delivery Date</th>
+                    <th class="wider">Contact person</th>
+                    <th class="col">Carrier</th>
+                    <th class="col" style="text-align: right;">Amount</th>
+                    <th class="status wider">Status</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td class="id">4646383486</td>
+                    <td>Jan 25, 2021</td>
+                    <td>Jan 30, 2021</td>
+                    <td><span class="pic"><img src="Images/man (1).jpg" alt=""></span> <span class="username">Leo Gill</span></td>
+                    <td>FedEx</td>
+                    <td style="text-align: right;">$150</td>
+                    <td style="text-align: center;"><span class="delivered">Delivered</span></td>
+                </tr>
+                <tr class="alt">
+                    <td class="id">6573537464</td>
+                    <td>Jan 25, 2021</td>
+                    <td>Jan 30, 2021</td>
+                    <td><span class="pic"><img src="Images/man (2).jpg" alt=""></span> <span class="username">June cha</span></td>
+                    <td>FedEx</td>
+                    <td style="text-align: right;">$16,300</td>
+                    <td style="text-align: center;"><span class="delivered">Delivered</span></td>
+                </tr>
+                <tr>
+                    <td class="id">1234567890</td>
+                    <td>Jan 28, 2021</td>
+                    <td>Feb 05, 2021</td>
+                    <td><span class="pic"><img src="Images/man (1).jpg" alt=""></span> <span class="username">John Doe</span></td>
+                    <td>DHL</td>
+                    <td style="text-align: right;">$200</td>
+                    <td style="text-align: center;"><span class="transit">In Transit</span></td>
+                </tr>
+                <tr class="alt">
+                    <td class="id">0987654321</td>
+                    <td>Jan 29, 2021</td>
+                    <td>Feb 06, 2021</td>
+                    <td><span class="pic"><img src="Images/man (2).jpg" alt=""></span> <span class="username">Jane Smith</span></td>
+                    <td>FedEx</td>
+                    <td style="text-align: right;">$180</td>
+                    <td style="text-align: center;"><span class="delivered">Delivered</span></td>
+                </tr>
+                <tr>
+                    <td class="id">2468101214</td>
+                    <td>Jan 30, 2021</td>
+                    <td>Feb 07, 2021</td>
+                    <td><span class="pic"><img src="Images/man (3).jpg" alt=""></span> <span class="username">Michael Johnson</span></td>
+                    <td>UPS</td>
+                    <td style="text-align: right;">$250</td>
+                    <td style="text-align: center;"><span class="transit">In Transit</span></td>
+                </tr>
+                <tr class="alt">
+                    <td class="id">13579111315</td>
+                    <td>Jan 31, 2021</td>
+                    <td>Feb 08, 2021</td>
+                    <td><span class="pic"><img src="Images/man (1).jpg" alt=""></span> <span class="username">Emily Johnson</span></td>
+                    <td>DHL</td>
+                    <td style="text-align: right;">$180</td>
+                    <td style="text-align: center;"><span class="delivered">Delivered</span></td>
+                </tr>
+                <tr>
+                    <td class="id">11223344556</td>
+                    <td>Feb 01, 2021</td>
+                    <td>Feb 09, 2021</td>
+                    <td><span class="pic"><img src="Images/man (3).jpg" alt=""></span> <span class="username">David Williams</span></td>
+                    <td>USPS</td>
+                    <td style="text-align: right;">$120</td>
+                    <td style="text-align: center;"><span class="transit">In Transit</span></td>
+                </tr>
+                
+                </tbody>
+            </table>
+                </div>
+        <div style="text-align: center;">
+            <button class="loadbtn">Load More</button>
+        </div>
+    </div>
+</body>
+
+</html>

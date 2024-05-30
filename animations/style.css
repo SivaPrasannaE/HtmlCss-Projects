@@ -1,0 +1,26 @@
+.cont{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: orangered;
+    margin-top: 50px;
+    animation-name: ball;
+    animation-duration: 12s;
+    animation-iteration-count: 1;
+    /* animation-fill-mode: forwards;
+    animation-direction: alternate; */
+}
+
+@keyframes ball{
+    from{
+
+    }
+    to{
+        margin-left: 50%;
+        /* transform: rotate(360deg); */
+        margin-top: 300px;
+        margin-right: 0px;
+
+
+    }
+}
